@@ -119,50 +119,65 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - name: 一键连1
-    type: http
-    server: a1.ap.fastqvpn.com
-    port: 29980
-    username: "405349539596206080"
-    password: 35e7ecf5-416f-417b-9014-448b058c9a3d
-    tls: true
-  - name: 一键连2
-    type: http
-    server: a2.ap.fastqvpn.com
-    port: 29980
-    username: "405349539596206080"
-    password: 35e7ecf5-416f-417b-9014-448b058c9a3d
-    tls: true
-  - name: 一键连3
-    type: http
-    server: a3.ap.fastqvpn.com
-    port: 29980
-    username: "405349539596206080"
-    password: 35e7ecf5-416f-417b-9014-448b058c9a3d
-    tls: true
-  - name: 一键连4
-    type: http
-    server: a4.ap.fastqvpn.com
-    port: 29980
-    username: "405349539596206080"
-    password: 35e7ecf5-416f-417b-9014-448b058c9a3d
-    tls: true
-  - name: 一键连5
-    type: http
-    server: a5.ap.fastqvpn.com
-    port: "29980"
-    username: "405349539596206080"
-    password: 35e7ecf5-416f-417b-9014-448b058c9a3d
-    tls: true
+  - name: 🇭🇰 香港
+    server: bgp-azure.wiucloud.tk
+    port: 13013
+    type: ssr
+    cipher: aes-256-cfb
+    password: Z6q1Ie7k1
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 4853:zAL2FZ
+    obfs-param: support.apple.com
+  - name: 🇸🇬 新加坡
+    server: bgp-azure.wiucloud.tk
+    port: 13007
+    type: ssr
+    cipher: aes-256-cfb
+    password: Z6q1Ie7k1
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 4853:zAL2FZ
+    obfs-param: support.apple.com
+  - name: 🇯🇵 日本
+    server: bgp-azure.wiucloud.tk
+    port: 13005
+    type: ssr
+    cipher: aes-256-cfb
+    password: Z6q1Ie7k1
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 4853:zAL2FZ
+    obfs-param: support.apple.com
+  - name: 🇺🇸 美国
+    server: bgp-azure.wiucloud.tk
+    port: 13008
+    type: ssr
+    cipher: aes-256-cfb
+    password: Z6q1Ie7k1
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 4853:zAL2FZ
+    obfs-param: support.apple.com
+  - name: 🇮🇳 印度
+    server: bgp-azure.wiucloud.tk
+    port: 13003
+    type: ssr
+    cipher: aes-256-cfb
+    password: Z6q1Ie7k1
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 4853:zAL2FZ
+    obfs-param: support.apple.com
 proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - 一键连1
-      - 一键连2
-      - 一键连3
-      - 一键连4
-      - 一键连5
+      - 🇭🇰 香港
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇮🇳 印度
   - name: 电报
     type: select
     proxies:
