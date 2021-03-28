@@ -163,7 +163,6 @@ proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - 🇭🇰 香港
       - 🇸🇬 新加坡
       - 🇯🇵 日本
       - 🇺🇸 美国
