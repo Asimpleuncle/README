@@ -119,16 +119,6 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - name: 🇭🇰 香港
-    server: bgp-azure.wiucloud.tk
-    port: 13013
-    type: ssr
-    cipher: aes-256-cfb
-    password: Z6q1Ie7k1
-    protocol: auth_aes128_sha1
-    obfs: tls1.2_ticket_auth
-    protocol-param: 4853:zAL2FZ
-    obfs-param: support.apple.com
   - name: 🇸🇬 新加坡
     server: bgp-azure.wiucloud.tk
     port: 13007
