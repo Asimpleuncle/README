@@ -7,3 +7,7 @@ https://raw.githubusercontent.com/mymoonyue/QuantumultX/master/Scripts/emby.conf
 YouTube广告拦截：
 
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf
+
+TF
+
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/TestFlightDownload.conf
