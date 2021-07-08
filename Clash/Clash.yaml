@@ -1,6 +1,7 @@
 mixin:
   dns:
     enable: true
+    # 监听本地的53端口
     listen: 127.0.0.1:53
     # 禁用 IPV6
     ipv6: false
